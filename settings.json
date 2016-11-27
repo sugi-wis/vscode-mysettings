@@ -1,0 +1,14 @@
+// 既定の設定とユーザー設定を上書きするには、このファイル内に設定を挿入します
+{
+    // "runner.extensionMap": {
+    "runner.languageMap": {
+        "shellscript": "/bin/bash",
+        // "python": "/usr/bin/python",
+        // "ruby": "/usr/bin/ruby",
+        "cpp": "/bin/bash ./.vscode/cpp-exe.sh",
+        "typescript": "/bin/bash ./.vscode/tsc-exe.sh",
+        "javascript": "/usr/bin/google-chrome */index.html;echo",
+        "html": "/usr/bin/google-chrome */index.html;echo"
+    },
+    "python.linting.pylintEnabled": false
+}
