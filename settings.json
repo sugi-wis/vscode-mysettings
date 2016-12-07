@@ -6,7 +6,7 @@
         // "ruby": "/usr/bin/ruby",
         "cpp": "/bin/bash ./.vscode/cpp-exe.sh",
         "typescript": "/bin/bash ./.vscode/tsc-exe.sh",
-        "javascript": "/usr/bin/google-chrome */index.html;echo",
+        "javascript": "/usr/bin/google-chrome */index.html --allow-file-access-from-files;echo",
         "html": "/usr/bin/google-chrome */index.html;echo"
     },
     "python.linting.pylintEnabled": false
