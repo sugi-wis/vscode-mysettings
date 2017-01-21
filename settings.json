@@ -2,7 +2,7 @@
 {
     "runner.languageMap": {
         "shellscript": "/bin/bash",
-        // "python": "/usr/bin/python",
+        "python": "/bin/bash ./.vscode/python.sh",
         // "ruby": "/usr/bin/ruby",
         "cpp": "/bin/bash ./.vscode/cpp-exe.sh",
         "typescript": "/bin/bash ./.vscode/tsc-exe.sh",
